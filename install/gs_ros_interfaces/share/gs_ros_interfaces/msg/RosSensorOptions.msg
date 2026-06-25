@@ -1,1 +1,0 @@
-/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros_interfaces/msg/RosSensorOptions.msg

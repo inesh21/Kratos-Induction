@@ -1,1 +1,0 @@
-/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces/rosidl_cmake/srv/GetNamedPoses_Response.msg

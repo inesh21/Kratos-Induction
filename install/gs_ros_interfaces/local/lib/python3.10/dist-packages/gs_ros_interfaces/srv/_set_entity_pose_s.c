@@ -1,1 +1,0 @@
-/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces/rosidl_generator_py/gs_ros_interfaces/srv/_set_entity_pose_s.c

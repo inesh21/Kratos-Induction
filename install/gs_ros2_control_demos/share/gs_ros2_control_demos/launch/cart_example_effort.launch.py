@@ -1,1 +1,0 @@
-/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos/launch/cart_example_effort.launch.py

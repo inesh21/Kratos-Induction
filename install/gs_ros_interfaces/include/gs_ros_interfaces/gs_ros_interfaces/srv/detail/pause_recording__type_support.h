@@ -1,1 +1,0 @@
-/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces/rosidl_generator_c/gs_ros_interfaces/srv/detail/pause_recording__type_support.h

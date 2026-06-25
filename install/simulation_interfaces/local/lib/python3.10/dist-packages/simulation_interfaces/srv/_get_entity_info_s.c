@@ -1,1 +1,0 @@
-/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces/rosidl_generator_py/simulation_interfaces/srv/_get_entity_info_s.c

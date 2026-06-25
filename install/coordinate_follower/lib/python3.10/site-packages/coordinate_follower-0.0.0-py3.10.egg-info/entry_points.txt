@@ -1,2 +1,0 @@
-[console_scripts]
-mission_client = coordinate_follower.mission_client:main
