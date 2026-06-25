@@ -1,0 +1,163 @@
+[0.141s] Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos
+[0.178s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.349s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.643s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.685s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.707s] -- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.738s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.741s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.746s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.869s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.871s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.935s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.953s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.981s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.986s] -- Looking for pthread.h
+[1.040s] -- Looking for pthread.h - found
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.103s] -- Found Threads: TRUE  
+[1.130s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.142s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.206s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.207s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.207s] -- Configured cppcheck include dirs: 
+[1.207s] -- Configured cppcheck exclude dirs and/or files: 
+[1.209s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.209s] -- Configured cpplint exclude dirs and/or files: 
+[1.209s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.210s] -- Added test 'lint_cmake' to check CMake code style
+[1.211s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.212s] -- Added test 'uncrustify' to check C / C++ code style
+[1.212s] -- Configured uncrustify additional arguments: 
+[1.213s] -- Added test 'xmllint' to check XML markup files
+[1.214s] -- Configuring done
+[1.233s] -- Generating done
+[1.241s] -- Build files have been written to: /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos
+[1.251s] Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos
+[1.253s] Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos -- -j12 -l12
+[1.293s] [ 14%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[1.293s] [ 14%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[1.293s] [ 21%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[1.294s] [ 28%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[1.294s] [ 35%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[1.297s] [ 42%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[1.303s] [ 50%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[7.254s] [ 57%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[7.328s] [ 64%] [32m[1mLinking CXX executable example_diff_drive[0m
+[7.605s] [ 64%] Built target example_tricycle_drive
+[7.637s] [ 64%] Built target example_diff_drive
+[7.666s] [ 71%] [32m[1mLinking CXX executable example_gripper[0m
+[7.813s] [ 71%] Built target example_gripper
+[7.873s] [ 78%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[7.906s] [ 85%] [32m[1mLinking CXX executable example_effort[0m
+[8.082s] [ 85%] Built target example_effort
+[8.090s] [ 85%] Built target example_ackermann_drive
+[8.111s] [ 92%] [32m[1mLinking CXX executable example_velocity[0m
+[8.368s] [ 92%] Built target example_velocity
+[8.416s] [100%] [32m[1mLinking CXX executable example_position[0m
+[8.780s] [100%] Built target example_position
+[8.799s] Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos -- -j12 -l12
+[8.809s] Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos
+[8.817s] -- Install configuration: ""
+[8.817s] -- Execute custom install script
+[8.818s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[8.827s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_effort.launch.py
+[8.835s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_position.launch.py
+[8.843s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_velocity.launch.py
+[8.851s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/diff_drive_example.launch.py
+[8.861s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[8.872s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[8.881s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[8.892s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/panda_example_position.launch.py
+[8.900s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[8.907s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/pendulum_example_position.launch.py
+[8.915s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[8.925s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/ackermann_drive_controller.yaml
+[8.935s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_effort.yaml
+[8.944s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_position.yaml
+[8.953s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_velocity.yaml
+[8.962s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/diff_drive_controller.yaml
+[8.971s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/gripper_controller.yaml
+[8.980s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/mecanum_drive_controller.yaml
+[8.989s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/panda_controller_position.yaml
+[8.999s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/tricycle_drive_controller.yaml
+[9.009s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/finger.obj
+[9.018s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/hand.obj
+[9.027s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link0.obj
+[9.036s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link1.obj
+[9.045s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link2.obj
+[9.054s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link3.obj
+[9.062s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link4.obj
+[9.071s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link5.obj
+[9.079s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link6.mtl
+[9.089s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link6.obj
+[9.096s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link7.obj
+[9.103s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/base_link.dae
+[9.109s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/base_link_uv.png
+[9.115s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/colors.png
+[9.121s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/finger.mtl
+[9.127s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/finger.obj
+[9.133s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/hand.mtl
+[9.138s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/hand.obj
+[9.144s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link1.mtl
+[9.150s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link1.obj
+[9.156s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link2.mtl
+[9.162s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link2.obj
+[9.168s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link3.mtl
+[9.174s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link3.obj
+[9.180s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link4.mtl
+[9.187s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link4.obj
+[9.194s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link5.mtl
+[9.202s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link5.obj
+[9.208s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link6.mtl
+[9.215s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link6.obj
+[9.223s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/visualShapeBench.json_0.json
+[9.232s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/panda.urdf
+[9.241s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[9.250s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[9.259s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[9.268s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[9.277s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[9.286s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[9.295s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[9.305s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[9.314s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[9.323s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[9.332s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_position
+[9.341s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_velocity
+[9.350s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_effort
+[9.360s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_diff_drive
+[9.368s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_tricycle_drive
+[9.377s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_ackermann_drive
+[9.388s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_gripper
+[9.399s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gs_ros2_control_demos
+[9.408s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gs_ros2_control_demos
+[9.418s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/ament_prefix_path.sh
+[9.426s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/ament_prefix_path.dsv
+[9.435s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/path.sh
+[9.444s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/path.dsv
+[9.453s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.bash
+[9.462s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.sh
+[9.470s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.zsh
+[9.480s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.dsv
+[9.489s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.dsv
+[9.498s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/ament_index/resource_index/packages/gs_ros2_control_demos
+[9.506s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/cmake/gs_ros2_control_demosConfig.cmake
+[9.515s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/cmake/gs_ros2_control_demosConfig-version.cmake
+[9.525s] -- Symlinking: /home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.xml
+[9.536s] Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos

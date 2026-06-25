@@ -1,0 +1,566 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71bd38794d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71bd388a9cc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71bd388a9cc0>>, mixin_verb=('build',))
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.083s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/harinesh21/Harinesh/induction_ws'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'ros'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['cmake', 'python']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'ros'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['cmake', 'python']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'ros'
+[0.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_ros' with type 'ros.ament_python' and name 'gs_ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_ros2_control_demos' with type 'ros.ament_cmake' and name 'gs_ros2_control_demos'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_ros_interfaces' with type 'ros.ament_cmake' and name 'gs_ros_interfaces'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_simulation_interfaces' with type 'ros.ament_python' and name 'gs_simulation_interfaces'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/simulation_interfaces' with type 'ros.ament_cmake' and name 'simulation_interfaces'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'ros'
+[0.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/topic_based_ros2_control' with type 'ros.ament_cmake' and name 'topic_based_ros2_control'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ros'
+[0.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_controller' with type 'ros.ament_python' and name 'turtle_controller'
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/harinesh21/Harinesh/induction_ws/install/gs_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.115s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.115s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/harinesh21/Harinesh/induction_ws/install
+[0.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'gs_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harinesh21/Harinesh/induction_ws/build/gs_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harinesh21/Harinesh/induction_ws/install/gs_ros', 'merge_install': False, 'path': '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'gs_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos', 'merge_install': False, 'path': '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces', 'merge_install': False, 'path': '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/simulation_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'topic_based_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control', 'merge_install': False, 'path': '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/topic_based_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller', 'merge_install': False, 'path': '/home/harinesh21/Harinesh/induction_ws/src/turtle_controller', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'gs_ros_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces', 'merge_install': False, 'path': '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.139s] DEBUG:colcon.colcon_core.verb:Building package 'gs_simulation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces', 'merge_install': False, 'path': '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_simulation_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.139s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.139s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.140s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/simulation_interfaces' with build type 'ament_cmake'
+[0.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/simulation_interfaces'
+[0.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros' with build type 'ament_python'
+[0.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros', 'ament_prefix_path')
+[0.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/hook/ament_prefix_path.ps1'
+[0.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/hook/ament_prefix_path.dsv'
+[0.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/hook/ament_prefix_path.sh'
+[0.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.149s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos' with build type 'ament_cmake'
+[0.149s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos'
+[0.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.152s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/topic_based_ros2_control' with build type 'ament_cmake'
+[0.152s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/topic_based_ros2_control'
+[0.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.153s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harinesh21/Harinesh/induction_ws/src/turtle_controller' with build type 'ament_python'
+[0.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'ament_prefix_path')
+[0.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.ps1'
+[0.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.dsv'
+[0.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.sh'
+[0.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/simulation_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces
+[0.286s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/topic_based_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control
+[0.432s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harinesh21/Harinesh/induction_ws/src/turtle_controller'
+[0.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/gs_ros/build --no-deps symlink_data
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/turtle_controller/build --no-deps symlink_data
+[1.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros', 'pythonpath_develop')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/build/gs_ros/share/gs_ros/hook/pythonpath_develop.ps1'
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros' returned '0': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/gs_ros/build --no-deps symlink_data
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/build/gs_ros/share/gs_ros/hook/pythonpath_develop.dsv'
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/build/gs_ros/share/gs_ros/hook/pythonpath_develop.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros' for CMake module files
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros' for CMake config files
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/lib'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/bin'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/lib/pkgconfig/gs_ros.pc'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/lib/python3.10/site-packages'
+[1.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros', 'pythonpath')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/hook/pythonpath.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/hook/pythonpath.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/hook/pythonpath.sh'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/bin'
+[1.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros)
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/package.ps1'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/package.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/package.sh'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/package.bash'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/gs_ros/package.zsh'
+[1.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/gs_ros/share/colcon-core/packages/gs_ros)
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos
+[1.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos -- -j12 -l12
+[1.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'pythonpath_develop')
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller/share/turtle_controller/hook/pythonpath_develop.ps1'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller/share/turtle_controller/hook/pythonpath_develop.dsv'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller/share/turtle_controller/hook/pythonpath_develop.sh'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller' for CMake module files
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller' for CMake config files
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller' returned '0': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/turtle_controller/build --no-deps symlink_data
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/bin'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib/pkgconfig/turtle_controller.pc'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib/python3.10/site-packages'
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'pythonpath')
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.ps1'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.sh'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller)
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/package.ps1'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/package.dsv'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/package.sh'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/package.bash'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/colcon-core/packages/turtle_controller)
+[1.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/topic_based_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control
+[1.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control -- -j12 -l12
+[2.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/simulation_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces
+[2.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces -- -j12 -l12
+[8.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos -- -j12 -l12
+[8.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos
+[9.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros2_control_demos)
+[9.685s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos' for CMake module files
+[9.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/gs_ros2_control_demos
+[9.686s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos' for CMake config files
+[9.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros2_control_demos', 'cmake_prefix_path')
+[9.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[9.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[9.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.sh'
+[9.688s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib'
+[9.688s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/bin'
+[9.688s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/pkgconfig/gs_ros2_control_demos.pc'
+[9.689s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/python3.10/site-packages'
+[9.689s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/bin'
+[9.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.ps1'
+[9.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.dsv'
+[9.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.sh'
+[9.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.bash'
+[9.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.zsh'
+[9.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/colcon-core/packages/gs_ros2_control_demos)
+[9.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros2_control_demos)
+[9.693s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos' for CMake module files
+[9.694s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos' for CMake config files
+[9.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros2_control_demos', 'cmake_prefix_path')
+[9.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[9.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[9.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.sh'
+[9.696s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib'
+[9.696s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/bin'
+[9.696s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/pkgconfig/gs_ros2_control_demos.pc'
+[9.696s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/lib/python3.10/site-packages'
+[9.697s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/bin'
+[9.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.ps1'
+[9.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.dsv'
+[9.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.sh'
+[9.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.bash'
+[9.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.zsh'
+[9.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos/share/colcon-core/packages/gs_ros2_control_demos)
+[18.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control -- -j12 -l12
+[18.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control
+[18.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_based_ros2_control)
+[18.332s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control' for CMake module files
+[18.333s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control' for CMake config files
+[18.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'cmake_prefix_path')
+[18.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.ps1'
+[18.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.dsv'
+[18.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/topic_based_ros2_control
+[18.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.sh'
+[18.336s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib'
+[18.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'ld_library_path_lib')
+[18.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.ps1'
+[18.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.dsv'
+[18.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.sh'
+[18.339s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/bin'
+[18.339s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib/pkgconfig/topic_based_ros2_control.pc'
+[18.339s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib/python3.10/site-packages'
+[18.340s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/bin'
+[18.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.ps1'
+[18.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.dsv'
+[18.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.sh'
+[18.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.bash'
+[18.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.zsh'
+[18.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/colcon-core/packages/topic_based_ros2_control)
+[18.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_based_ros2_control)
+[18.344s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control' for CMake module files
+[18.345s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control' for CMake config files
+[18.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'cmake_prefix_path')
+[18.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.ps1'
+[18.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.dsv'
+[18.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.sh'
+[18.348s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib'
+[18.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'ld_library_path_lib')
+[18.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.ps1'
+[18.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.dsv'
+[18.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.sh'
+[18.351s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/bin'
+[18.351s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib/pkgconfig/topic_based_ros2_control.pc'
+[18.351s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib/python3.10/site-packages'
+[18.351s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/bin'
+[18.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.ps1'
+[18.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.dsv'
+[18.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.sh'
+[18.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.bash'
+[18.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.zsh'
+[18.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/share/colcon-core/packages/topic_based_ros2_control)
+[24.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces -- -j12 -l12
+[24.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces
+[28.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_interfaces)
+[28.898s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces' for CMake module files
+[28.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces
+[28.899s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces' for CMake config files
+[28.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'cmake_prefix_path')
+[28.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.ps1'
+[28.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.dsv'
+[28.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.sh'
+[28.900s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib'
+[28.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'ld_library_path_lib')
+[28.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.ps1'
+[28.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.dsv'
+[28.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.sh'
+[28.901s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/bin'
+[28.901s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib/pkgconfig/simulation_interfaces.pc'
+[28.901s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib/python3.10/site-packages'
+[28.901s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/bin'
+[28.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.ps1'
+[28.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.dsv'
+[28.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.sh'
+[28.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.bash'
+[28.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.zsh'
+[28.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/colcon-core/packages/simulation_interfaces)
+[28.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_interfaces)
+[28.903s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces' for CMake module files
+[28.903s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces' for CMake config files
+[28.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'cmake_prefix_path')
+[28.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.ps1'
+[28.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.dsv'
+[28.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.sh'
+[28.905s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib'
+[28.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'ld_library_path_lib')
+[28.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.ps1'
+[28.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.dsv'
+[28.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.sh'
+[28.905s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/bin'
+[28.905s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib/pkgconfig/simulation_interfaces.pc'
+[28.906s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib/python3.10/site-packages'
+[28.906s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/bin'
+[28.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.ps1'
+[28.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.dsv'
+[28.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.sh'
+[28.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.bash'
+[28.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/simulation_interfaces/package.zsh'
+[28.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/share/colcon-core/packages/simulation_interfaces)
+[28.913s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros_interfaces' with build type 'ament_cmake'
+[28.914s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros_interfaces'
+[28.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces
+[30.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces
+[30.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces -- -j12 -l12
+[44.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces -- -j12 -l12
+[44.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces
+[48.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros_interfaces)
+[48.334s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces' for CMake module files
+[48.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/gs_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces
+[48.335s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces' for CMake config files
+[48.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'cmake_prefix_path')
+[48.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.ps1'
+[48.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.dsv'
+[48.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.sh'
+[48.336s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib'
+[48.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'ld_library_path_lib')
+[48.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.ps1'
+[48.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.dsv'
+[48.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.sh'
+[48.337s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/bin'
+[48.337s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib/pkgconfig/gs_ros_interfaces.pc'
+[48.337s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib/python3.10/site-packages'
+[48.337s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/bin'
+[48.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.ps1'
+[48.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.dsv'
+[48.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.sh'
+[48.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.bash'
+[48.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.zsh'
+[48.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/colcon-core/packages/gs_ros_interfaces)
+[48.346s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros_interfaces)
+[48.346s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces' for CMake module files
+[48.346s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces' for CMake config files
+[48.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'cmake_prefix_path')
+[48.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.ps1'
+[48.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.dsv'
+[48.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.sh'
+[48.348s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib'
+[48.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'ld_library_path_lib')
+[48.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.ps1'
+[48.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.dsv'
+[48.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.sh'
+[48.348s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/bin'
+[48.348s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib/pkgconfig/gs_ros_interfaces.pc'
+[48.348s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib/python3.10/site-packages'
+[48.349s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/bin'
+[48.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.ps1'
+[48.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.dsv'
+[48.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.sh'
+[48.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.bash'
+[48.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.zsh'
+[48.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/share/colcon-core/packages/gs_ros_interfaces)
+[48.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_simulation_interfaces' with build type 'ament_python'
+[48.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_simulation_interfaces', 'ament_prefix_path')
+[48.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/ament_prefix_path.ps1'
+[48.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/ament_prefix_path.dsv'
+[48.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/ament_prefix_path.sh'
+[48.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.481s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harinesh21/Harinesh/induction_ws/src/genesis_ros/gs_simulation_interfaces'
+[48.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces/build --no-deps symlink_data
+[49.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_simulation_interfaces', 'pythonpath_develop')
+[49.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath_develop.ps1'
+[49.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces:/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control:/home/harinesh21/Harinesh/induction_ws/install/gs_ros2_control_demos LD_LIBRARY_PATH=/home/harinesh21/Harinesh/induction_ws/install/gs_ros_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/simulation_interfaces/lib:/home/harinesh21/Harinesh/induction_ws/install/topic_based_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces/build --no-deps symlink_data
+[49.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath_develop.dsv'
+[49.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/build/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath_develop.sh'
+[49.131s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces' for CMake module files
+[49.131s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces' for CMake config files
+[49.132s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/lib'
+[49.132s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/bin'
+[49.132s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/lib/pkgconfig/gs_simulation_interfaces.pc'
+[49.132s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/lib/python3.10/site-packages'
+[49.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_simulation_interfaces', 'pythonpath')
+[49.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath.ps1'
+[49.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath.dsv'
+[49.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath.sh'
+[49.134s] Level 1:colcon.colcon_core.environment:checking '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/bin'
+[49.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_simulation_interfaces)
+[49.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.ps1'
+[49.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.dsv'
+[49.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.sh'
+[49.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.bash'
+[49.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.zsh'
+[49.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harinesh21/Harinesh/induction_ws/install/gs_simulation_interfaces/share/colcon-core/packages/gs_simulation_interfaces)
+[49.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[49.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[49.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[49.137s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[49.142s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[49.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[49.143s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[49.152s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[49.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harinesh21/Harinesh/induction_ws/install/local_setup.ps1'
+[49.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harinesh21/Harinesh/induction_ws/install/_local_setup_util_ps1.py'
+[49.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harinesh21/Harinesh/induction_ws/install/setup.ps1'
+[49.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harinesh21/Harinesh/induction_ws/install/local_setup.sh'
+[49.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harinesh21/Harinesh/induction_ws/install/_local_setup_util_sh.py'
+[49.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harinesh21/Harinesh/induction_ws/install/setup.sh'
+[49.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harinesh21/Harinesh/induction_ws/install/local_setup.bash'
+[49.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harinesh21/Harinesh/induction_ws/install/setup.bash'
+[49.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harinesh21/Harinesh/induction_ws/install/local_setup.zsh'
+[49.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harinesh21/Harinesh/induction_ws/install/setup.zsh'

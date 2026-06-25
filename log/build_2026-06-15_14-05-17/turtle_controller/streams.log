@@ -1,0 +1,22 @@
+[0.807s] Invoking command in '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/turtle_controller/build --no-deps symlink_data
+[1.185s] running develop
+[1.447s] running egg_info
+[1.447s] creating turtle_controller.egg-info
+[1.467s] writing turtle_controller.egg-info/PKG-INFO
+[1.468s] writing dependency_links to turtle_controller.egg-info/dependency_links.txt
+[1.468s] writing requirements to turtle_controller.egg-info/requires.txt
+[1.469s] writing top-level names to turtle_controller.egg-info/top_level.txt
+[1.471s] writing manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[1.512s] reading manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[1.512s] writing manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[1.549s] running build_ext
+[1.549s] Creating /home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib/python3.10/site-packages/turtle-controller.egg-link (link to .)
+[1.550s] 
+[1.551s] Installed /home/harinesh21/Harinesh/induction_ws/build/turtle_controller
+[1.551s] running symlink_data
+[1.551s] creating /home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/ament_index
+[1.551s] creating /home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/ament_index/resource_index
+[1.551s] creating /home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[1.551s] symbolically linking /home/harinesh21/Harinesh/induction_ws/build/turtle_controller/resource/turtle_controller -> /home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[1.552s] symbolically linking /home/harinesh21/Harinesh/induction_ws/build/turtle_controller/package.xml -> /home/harinesh21/Harinesh/induction_ws/install/turtle_controller/share/turtle_controller
+[1.623s] Invoked command in '/home/harinesh21/Harinesh/induction_ws/build/turtle_controller' returned '0': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harinesh21/Harinesh/induction_ws/build/turtle_controller/build --no-deps symlink_data

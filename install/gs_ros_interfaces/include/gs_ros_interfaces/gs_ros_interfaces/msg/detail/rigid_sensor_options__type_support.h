@@ -1,0 +1,1 @@
+/home/harinesh21/Harinesh/induction_ws/build/gs_ros_interfaces/rosidl_generator_c/gs_ros_interfaces/msg/detail/rigid_sensor_options__type_support.h

@@ -1,0 +1,1 @@
+/home/harinesh21/Harinesh/induction_ws/build/simulation_interfaces/ament_cmake_environment_hooks/local_setup.bash

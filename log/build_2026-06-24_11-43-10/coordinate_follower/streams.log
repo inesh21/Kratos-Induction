@@ -1,0 +1,27 @@
+[0.458s] Invoking command in '/home/harinesh21/Harinesh/induction_ws/src/coordinate_follower': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coordinate_follower build --build-base /home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/build install --record /home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/install.log --single-version-externally-managed install_data
+[0.598s] running egg_info
+[0.606s] writing ../../build/coordinate_follower/coordinate_follower.egg-info/PKG-INFO
+[0.606s] writing dependency_links to ../../build/coordinate_follower/coordinate_follower.egg-info/dependency_links.txt
+[0.606s] writing entry points to ../../build/coordinate_follower/coordinate_follower.egg-info/entry_points.txt
+[0.607s] writing requirements to ../../build/coordinate_follower/coordinate_follower.egg-info/requires.txt
+[0.607s] writing top-level names to ../../build/coordinate_follower/coordinate_follower.egg-info/top_level.txt
+[0.625s] reading manifest file '../../build/coordinate_follower/coordinate_follower.egg-info/SOURCES.txt'
+[0.625s] writing manifest file '../../build/coordinate_follower/coordinate_follower.egg-info/SOURCES.txt'
+[0.625s] running build
+[0.625s] running build_py
+[0.625s] copying coordinate_follower/mission_client.py -> /home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/build/lib/coordinate_follower
+[0.626s] copying coordinate_follower/__init__.py -> /home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/build/lib/coordinate_follower
+[0.626s] running install
+[0.628s] running install_lib
+[0.636s] copying /home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/build/lib/coordinate_follower/mission_client.py -> /home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower
+[0.637s] byte-compiling /home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower/mission_client.py to mission_client.cpython-310.pyc
+[0.638s] running install_data
+[0.638s] copying resource/coordinate_follower -> /home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/share/ament_index/resource_index/packages
+[0.638s] copying package.xml -> /home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/share/coordinate_follower
+[0.638s] running install_egg_info
+[0.646s] removing '/home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[0.647s] Copying ../../build/coordinate_follower/coordinate_follower.egg-info to /home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/lib/python3.10/site-packages/coordinate_follower-0.0.0-py3.10.egg-info
+[0.647s] running install_scripts
+[0.719s] Installing mission_client script to /home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/lib/coordinate_follower
+[0.719s] writing list of installed files to '/home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/install.log'
+[0.738s] Invoked command in '/home/harinesh21/Harinesh/induction_ws/src/coordinate_follower' returned '0': PYTHONPATH=/home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harinesh21/Harinesh/induction_ws/install/coordinate_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coordinate_follower build --build-base /home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/build install --record /home/harinesh21/Harinesh/induction_ws/build/coordinate_follower/install.log --single-version-externally-managed install_data
