@@ -21,7 +21,9 @@ class MainWindow(QMainWindow):
 
     def build_ui(self):
         central = QWidget()
-        layout = QVBoxLayout()
+        outer_layout = QHBoxLayout()
+
+        left_layout = QVBoxLayout()
 
         waypoint_box = QGroupBox("Waypoints")
         waypoint_layout = QVBoxLayout()
@@ -36,16 +38,7 @@ class MainWindow(QMainWindow):
             waypoint_layout.addLayout(row)
             self.waypoint_inputs.append((x_edit, y_edit))
         waypoint_box.setLayout(waypoint_layout)
-        layout.addWidget(waypoint_box)
-
-        self.dispatch_button = QPushButton("Dispatch Mission")
-        self.dispatch_button.clicked.connect(self.on_dispatch_clicked)
-        layout.addWidget(self.dispatch_button)
-
-        self.estop_button = QPushButton("EMERGENCY STOP")
-        self.estop_button.setStyleSheet("background-color: red; color: white; font-weight: bold;")
-        self.estop_button.clicked.connect(self.estop_callback)
-        layout.addWidget(self.estop_button)
+        left_layout.addWidget(waypoint_box)
 
         telemetry_box = QGroupBox("Telemetry")
         telemetry_layout = QVBoxLayout()
@@ -56,14 +49,30 @@ class MainWindow(QMainWindow):
         telemetry_layout.addWidget(self.velocity_label)
         telemetry_layout.addWidget(self.lidar_label)
         telemetry_box.setLayout(telemetry_layout)
-        layout.addWidget(telemetry_box)
+        left_layout.addWidget(telemetry_box)
 
-        layout.addWidget(QLabel("Mission Log:"))
+        left_layout.addStretch()
+
+        self.dispatch_button = QPushButton("Dispatch Mission")
+        self.dispatch_button.clicked.connect(self.on_dispatch_clicked)
+        left_layout.addWidget(self.dispatch_button)
+
+        right_layout = QVBoxLayout()
+
+        right_layout.addWidget(QLabel("Mission Log:"))
         self.log_panel = QTextEdit()
         self.log_panel.setReadOnly(True)
-        layout.addWidget(self.log_panel)
+        right_layout.addWidget(self.log_panel)
 
-        central.setLayout(layout)
+        self.estop_button = QPushButton("EMERGENCY STOP")
+        self.estop_button.setStyleSheet("background-color: red; color: white; font-weight: bold;")
+        self.estop_button.clicked.connect(self.estop_callback)
+        right_layout.addWidget(self.estop_button)
+
+        outer_layout.addLayout(left_layout, 1)
+        outer_layout.addLayout(right_layout, 2)
+
+        central.setLayout(outer_layout)
         self.setCentralWidget(central)
 
     def on_dispatch_clicked(self):

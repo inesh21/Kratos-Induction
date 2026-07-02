@@ -12,7 +12,7 @@ class MissionControlNode(Node):
         super().__init__('mission_control_gui')
         self.log = log_callback
         self.action_client = ActionClient(self, NavigateToPose, '/navigate_to_pose')
-
+        self.current_goal_handle = None
         self.waypoints = []
         self.current_index = 0
         self.success_count = 0
@@ -62,9 +62,17 @@ class MissionControlNode(Node):
             self.send_next_waypoint()
             return
 
+        self.current_goal_handle = goal_handle   # <-- store it
         result_future = goal_handle.get_result_async()
         result_future.add_done_callback(self.on_result)
 
+    def cancel_current_goal(self):
+        if self.current_goal_handle is not None:
+            self.log("Cancelling active navigation goal...")
+            self.current_goal_handle.cancel_goal_async()
+        else:
+            self.log("No active goal to cancel.")
+    
     def on_result(self, future):
         status = future.result().status
         if status == GoalStatus.STATUS_SUCCEEDED:

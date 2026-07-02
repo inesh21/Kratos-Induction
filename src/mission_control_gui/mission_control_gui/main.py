@@ -25,8 +25,9 @@ def main():
 
     def publish_estop():
         node.get_logger().info("EMERGENCY STOP triggered")
-        estop_publisher.publish(Twist())  # all zeros
-        window.log("EMERGENCY STOP triggered — zero velocity published.")
+        node.cancel_current_goal()
+        estop_publisher.publish(Twist())
+        window.log("EMERGENCY STOP triggered — goal cancelled, zero velocity published.")
 
     window = MainWindow(
         dispatch_callback=lambda waypoints: node.dispatch_waypoints(waypoints, window.mission_finished),
