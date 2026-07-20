@@ -417,6 +417,9 @@ class ArucoDetector:
         cv2.imshow("Robot Camera", image)
         cv2.waitKey(1)
         corners, ids, rejected = self.detector.detectMarkers(image)
+        print("==========")
+        print("IDs:", ids)
+        print("Rejected candidates:", len(rejected))
         # No marker found
         if ids is None:
             return None

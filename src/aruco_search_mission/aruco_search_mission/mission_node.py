@@ -176,18 +176,20 @@ class MissionNode(Node):
         marker = self.aruco_detector.detect_markers(frame)
         self.get_logger().info(f"Marker = {marker}")
         if marker is None:
+            if self.state ==MissionState.APPROACHING:
+                self.current_marker = None
             return
         self.current_marker = marker
         if self.state == MissionState.SEARCHING:
             self.get_logger().info(f"Marker found! ID: {marker['id']}, Center: ({marker['center_x']}, {marker['center_y']}), Width: {marker['width']}")
-            stop= Twist()
-            self.cmd_vel_publisher.publish(stop)
+            self.cmd_vel_publisher.publish(Twist())  
             self.state = MissionState.APPROACHING
 
     def get_result_callback(self, future):
         status = future.result().status
         if status == GoalStatus.STATUS_SUCCEEDED:
             self.get_logger().info('Goal succeeded!')
+            self.current_marker = None
             self.state = MissionState.SEARCHING
         else:
             self.get_logger().info(f'Goal failed with status: {status}')
@@ -196,7 +198,7 @@ class MissionNode(Node):
         self.robot_x = msg.pose.pose.position.x
         self.robot_y = msg.pose.pose.position.y
     
-    def rotate_robot(self, angular_speed=0.3):
+    def rotate_robot(self, angular_speed=0.1):
         twist = Twist()
         twist.angular.z = angular_speed
         self.cmd_vel_publisher.publish(twist)
@@ -225,8 +227,14 @@ class MissionNode(Node):
                 self.send_goal(wp["x"], wp["y"])
             else:
                 self.get_logger().info("Mission Complete")
-                
+                self.current_marker = None
+
+
     def approach_marker(self):
+        if self.current_marker is None:
+            self.get_logger().info("No marker to approach")
+            self.state = MissionState.SEARCHING
+            return
         self.get_logger().info("APPROACHING")
         twist = Twist()
         image_center = 320       
@@ -235,9 +243,9 @@ class MissionNode(Node):
         # First center the marker
         if abs(error) > 30:
             if error < 0:
-                twist.angular.z = 0.1    # marker left → turn left
+                twist.angular.z = 0.05   # marker left → turn left
             else:
-                twist.angular.z = -0.1      # marker right → turn right
+                twist.angular.z = -0.05      # marker right → turn right
         # Marker centered, move forward
         elif self.current_marker["width"] < 100:
             twist.linear.x = 0.15
