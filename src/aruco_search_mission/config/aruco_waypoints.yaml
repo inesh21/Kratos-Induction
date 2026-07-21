@@ -1,0 +1,34 @@
+# ArUco Marker Search Waypoints
+# ==============================
+# These are ROUGH locations near each ArUco marker.
+# Navigate to each waypoint using Nav2, then visually search for the ArUco tag.
+# The markers are vertical (standing upright), about 18cm x 18cm.
+# Dictionary: DICT_4X4_1000
+#
+# Task:
+#   1. Navigate to each waypoint using Nav2 (NavigateToPose action)
+#   2. Once near the waypoint, switch to visual search using the camera
+#   3. Detect the ArUco marker, record its ID and precise position
+#   4. Proceed to the next waypoint
+#
+# Note: Exact marker positions are intentionally offset from these waypoints.
+#       You need to search the area!
+
+waypoints:
+  - name: "waypoint_a"
+    x: 1.25
+    y: 0.0
+    theta: 0.0  # orientation doesn't matter much, you'll need to search
+    hint: "Check the northeast area - marker is nearby"
+
+  - name: "waypoint_b"
+    x: -0.5
+    y: 1.0
+    theta: 0.0
+    hint: "Check the northwest area - marker is nearby"
+
+  - name: "waypoint_c"
+    x: 0.0
+    y: -1.0
+    theta: 0.0
+    hint: "Check the southeast area - marker is nearby"
